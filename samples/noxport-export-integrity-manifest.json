@@ -1,0 +1,59 @@
+{
+  "$schema": "https://noxportlabs.com/schemas/export-manifest-v1.json",
+  "manifest_version": "noxport.manifest.v1",
+  "document_id": "doc_ast_sample_20261028_001",
+  "title": "ChatGPT & Claude to Word (OpenXML) AST Conversion Benchmark",
+  "created_at": "2026-10-28T12:00:00Z",
+  "source": {
+    "platform": "chatgpt-web",
+    "conversation_id": "conv_sample_9841",
+    "turn_count": 8,
+    "user_messages": 4,
+    "assistant_messages": 4
+  },
+  "provenance": {
+    "engine": "noxport-ast-core",
+    "engine_version": "3.0.4.226",
+    "mode": "local-first-stateless",
+    "allow_complete_claim": false,
+    "unrendered_nodes": [
+      {
+        "type": "unsupported_canvas_widget",
+        "index": 12,
+        "reason": "Interactive client canvas requires dynamic JS execution; converted to high-resolution snapshot preview."
+      }
+    ],
+    "network_fetches": {
+      "fonts": 0,
+      "telemetry": 0,
+      "cloud_converters": 0
+    },
+    "integrity": {
+      "sha256": "42ea87c4f66f88109d5c16b0442a7f096ac78345e03ba052c0fadad912749ae1",
+      "signature_algorithm": "ed25519",
+      "public_key_fingerprint": "nxp-ed25519-2026-v4"
+    }
+  },
+  "output_formats": [
+    {
+      "format": "docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 48210
+    },
+    {
+      "format": "pdf",
+      "mime": "application/pdf",
+      "bytes": 112450
+    },
+    {
+      "format": "md",
+      "mime": "text/markdown",
+      "bytes": 4513
+    },
+    {
+      "format": "zip",
+      "mime": "application/zip",
+      "bytes": 169072
+    }
+  ]
+}
